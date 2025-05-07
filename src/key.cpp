@@ -13,7 +13,7 @@ Note::Note(int n, int a){
 }
 
 string Note::name(){
-    return NOTE_ENCODINGS.at(encoding) + ACCIDENTALS.at(accidental);
+    return NOTE_ENCODINGS.at(encoding) + " " + ACCIDENTALS.at(accidental);
 }
 
 int Note::distance(Note n){

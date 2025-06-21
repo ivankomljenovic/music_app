@@ -19,6 +19,7 @@ class Note{
         int accidental;
         int encoding; // according to the NOTE_ENCODINGS map
         Note();
+        Note(int n);
         Note(int n, int a);
 
         string name();

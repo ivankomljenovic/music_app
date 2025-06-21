@@ -1,4 +1,5 @@
 #include "key.hpp"
+#include <stdexcept>
 
 using namespace std;
 
@@ -7,8 +8,15 @@ Note::Note() {
     encoding = C;
 }
 
+Note::Note(int n){
+    encoding = n % 7;
+    accidental = NATURAL;
+}
+
 Note::Note(int n, int a){
-    encoding = n;
+    if (a > 2 || a < -2)
+        throw invalid_argument("Accidental must be within the range -2 to +2 according to ACCIDENTAL.");
+    encoding = n % 7;
     accidental = a;
 }
 

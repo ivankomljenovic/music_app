@@ -63,3 +63,8 @@ Angular, seems like this is more for web UI development
 -VS Code IDE
 
 cross-platform frameworks: Ionic, Cordova
+
+
+Feature idea:
+-when revealing the answer to the scale, play the scale as a sound effect.
+-(can make this easily in FL Studio or something, for consistency of the sound effect)

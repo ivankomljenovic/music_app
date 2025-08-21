@@ -1,0 +1,31 @@
+Basic Widgets to Know:
+
+1. Container
+-has properties like 
+    color: change child's background colour
+    padding: make the background larger
+    margin: add empty space around the background
+    decoration: change the background shape (fitting to narowest parameter)
+    alignment: sets alignment of child within the container
+    width, height: sets dimensions of the container
+    transform: rotate or perform a transform on the container
+
+2. Text
+-properties:
+    maxLines:
+    softWrap:
+
+3. Scaffold
+-gives all children the Material layout
+
+4. AppBar
+-Material design app bar
+
+5. Row & Column
+
+6. Elevated Button
+-Material design elevated button
+
+7. Image
+
+8. Icon
